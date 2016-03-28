@@ -3,7 +3,7 @@ require_once 'CryptPass.php';
 require_once 'vendor/autoload.php';
 
 class CryptTest extends PHPUnit_Framework_TestCase {
-    function testFoo() {
+    function testHashPassword() {
       $cryptPass = new CryptPass();
 
       $password = "123456";
