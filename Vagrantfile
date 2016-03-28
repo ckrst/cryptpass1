@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.define "web" do |web|
     web.vm.provider "docker" do |docker|
-      docker.name = "vcp"
+      docker.name = "cryptpass1"
       docker.build_dir = "."
       docker.ports = [ "80:80" ]
       docker.privileged = true
