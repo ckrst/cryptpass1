@@ -1,5 +1,5 @@
 <?php
-require_once 'CryptPass.php'
+require_once 'CryptPass.php';
 
 class CryptTest extends TestCase {
     function testFoo() {
