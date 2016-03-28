@@ -10,4 +10,5 @@ before_script:
 script:
   - pwd
   - ls -la
-  - phpunit tests/CryptTest.php
+  - ls -la vendor
+  - vendor/phpunit/phpunit/phpunit tests/CryptTest.php 

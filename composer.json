@@ -2,7 +2,7 @@
     "name": "vinik/cryptpass",
     "description": "Encrypt a password",
     "require-dev": {
-        "phpunit/phpunit": "3.7.*"
+        "phpunit/phpunit": "5.2.*"
     },
     "license": "Apache-2.0"
 }
